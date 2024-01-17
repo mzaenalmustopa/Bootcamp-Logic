@@ -8,7 +8,7 @@ public class Soal06 {
         // deret angka bilangan prima
         // n = 9
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Masukan Nilai N :");
+        System.out.print("Masukan Nilai N : ");
         int n = scanner.nextInt();
 
         for (int i = 2; i <= n*3-4; i++) {

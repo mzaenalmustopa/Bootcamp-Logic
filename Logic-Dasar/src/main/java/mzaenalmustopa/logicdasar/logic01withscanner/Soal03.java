@@ -8,7 +8,7 @@ public class Soal03 {
         // deret angka genap
         // n = 9
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Masukan Nilai N :");
+        System.out.print("Masukan Nilai N : ");
         int n = scanner.nextInt();
         int angka = 0;
 

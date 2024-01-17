@@ -16,7 +16,7 @@ public class Soal10 {
 
         for (int i = 0; i < n; i++) {
             double angka = (double) i + 0;
-            double hasil = Math.pow(angka , (double) p);
+            double hasil = Math.pow(angka , p);
             array[i] = (int) hasil;
         }
         System.out.println(Arrays.toString(array) + "\t");
